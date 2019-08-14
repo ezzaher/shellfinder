@@ -30,7 +30,7 @@ def OpenLog(log_file_name):
 
 def main():
 	socket.setdefaulttimeout(10)
-	print wait+"\n
+	print wait+"\##
 echo -e "\e[1;31m    \                       \e[1;36m_____----------_____             \e[1;31m          /  
 \e[1;32m     \                     \e[1;34m/ \e[1;36m^.^.^.^____^.^.^.^ \e[1;34m\     \e[1;32m                / 
 \e[1;33m      \                   \e[1;34m/\e[1;36m:.:  :.  ..  . .:  :.:\e[1;34m\    \e[1;33m               / 
