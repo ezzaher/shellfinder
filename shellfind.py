@@ -34,7 +34,7 @@ print wait+"\n## ------ Welcome to Shell Finder Developed by Aziz Ezzaher |welco
 (http://fakescams.us) | Hacked By Ezzaher) ------ ##"
 	website_url = raw_input("\n\nEnter URL to scan ([eg, http://sitename.com or https://sitename.com/subdir ] | Do not add slash at the end of URL) : ")
 	parse_url=urlparse(website_url)
-	log_file_name = "LOG/"+parse_url.netloc+".log"
+	log_file_name = ""+parse_url.netloc+".log"
 	global total_scanned_global
 	global found_scanned_global
 	try:
