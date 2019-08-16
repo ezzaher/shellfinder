@@ -30,7 +30,7 @@ def OpenLog(log_file_name):
 
 def main():
 socket.setdefaulttimeout(10)
-print wait+"\n## ------ Welcome to Shell Finder Developed by Aziz Ezzaher |welcome To site fake pages|
+print wait+"\n## ------ Welcome to Shell Finder Developed by Aziz Ezzaher |welcome To site fake pages
 (http://fakescams.us) | Hacked By Ezzaher)------ ##"
 	website_url = raw_input("\n\nEnter URL to scan ([eg, http://sitename.com or https://sitename.com/subdir ] | Do not add slash at the end of URL) : ")
 	parse_url=urlparse(website_url)
